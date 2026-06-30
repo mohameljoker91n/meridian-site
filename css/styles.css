@@ -103,6 +103,7 @@ p{ margin:0; }
 .nav > a{
   font-family:var(--font-display); font-weight:500; font-size:.98rem; color:var(--navy);
   padding:.5rem .85rem; border-radius:8px; transition:color .2s var(--ease), background .2s var(--ease);
+  white-space:nowrap;
 }
 .nav > a:not(.btn):hover{ color:var(--teal-600); background:rgba(0,201,167,.08); }
 .nav-cta{ margin-inline-start:.5rem; }
