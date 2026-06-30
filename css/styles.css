@@ -113,7 +113,7 @@ p{ margin:0; }
   background:transparent; color:var(--navy); border:1.5px solid var(--line);
   padding:.42rem .8rem; border-radius:999px; cursor:pointer;
   transition:border-color .2s var(--ease), color .2s var(--ease);
-  min-width:54px;
+  min-width:54px; text-align:center; unicode-bidi:isolate; direction:ltr;
 }
 .lang-toggle:hover{ border-color:var(--teal); color:var(--teal-600); }
 
