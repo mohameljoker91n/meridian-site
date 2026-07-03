@@ -103,6 +103,7 @@ p{ margin:0; }
 .nav > a{
   font-family:var(--font-display); font-weight:500; font-size:.98rem; color:var(--navy);
   padding:.5rem .85rem; border-radius:8px; transition:color .2s var(--ease), background .2s var(--ease);
+  white-space:nowrap;
 }
 .nav > a:not(.btn):hover{ color:var(--teal-600); background:rgba(0,201,167,.08); }
 .nav-cta{ margin-inline-start:.5rem; }
@@ -113,7 +114,7 @@ p{ margin:0; }
   background:transparent; color:var(--navy); border:1.5px solid var(--line);
   padding:.42rem .8rem; border-radius:999px; cursor:pointer;
   transition:border-color .2s var(--ease), color .2s var(--ease);
-  min-width:54px;
+  min-width:54px; text-align:center; unicode-bidi:isolate; direction:ltr;
 }
 .lang-toggle:hover{ border-color:var(--teal); color:var(--teal-600); }
 
